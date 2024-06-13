@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARtemis Anleitung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .button-description, .touch-description, .controller-description, .usdz-description{
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ARtemis Anleitung</h1>
+    <h4><em> - Benutzeroberfläche | Touchgesten | Gamecontroller | Import - </em></h4>
+
+    <p>Diese Anleitung beschreibt die grundlegenden Funktionen der Benutzeroberfläche von ARtemis. Die Benutzeroberfläche ermöglicht es den Nutzern, verschiedene Objekte in eine AR-Szene zu laden und diese zu steuern. Diese Anleitung bietet einen Überblick über die grundlegenden Funktionen der Benutzeroberfläche, der Touchgesten, der Gamecontroller funktionen sowie den Import von USDZ-Dateien.</p>
+
+    <h2>1. Navigation und Steuerung</h2>
+
+    <div class="button-description">
+        <h3>1.1 Plus-Button</h3>
+        <p>Der Plus-Button dient zur Aktivierung der Navigationsleiste. Bei Betätigung dieses Buttons wird die Navigationsleiste sichtbar und ermöglicht den Zugriff auf weitere Funktionen der Anwendung.</p>
+    </div>
+
+    <div class="button-description">
+        <h3>1.2 X-Button</h3>
+        <p>Der X-Button hat die gegenteilige Funktion des Plus-Buttons. Durch das Drücken des X-Buttons wird die zuvor geöffnete Navigationsleiste wieder ausgeblendet. Dies sorgt für eine aufgeräumte Benutzeroberfläche und ermöglicht eine ungestörte Nutzung der AR-Szene.</p>
+    </div>
+
+    <div class="button-description">
+        <h3>1.3 Up-Button und Down-Button</h3>
+        <p>Die Up- und Down-Buttons sind essenziell für das Laden von Objekten in die AR-Szene:</p>
+        <ul>
+            <li><strong>Up-Button:</strong> Mit dem Up-Button können Nutzer Objekte in die AR-Szene laden.</li>
+            <li><strong>Down-Button:</strong> Der Down-Button ermöglicht das Laden von Objekten in die AR-Szene auf einer niedrigeren Ebene.</li>
+        </ul>
+        <p>Diese Buttons ermöglichen den Import und Verwaltung der Objekte innerhalb der AR-Szene.</p>
+    </div>
+
+    <div class="button-description">
+        <h3>1.4 I-Button</h3>
+        <p>Der I-Button dient zum Öffnen des Handbuchs der Anwendung. Durch das Drücken dieses Buttons wird ein Benutzerhandbuch angezeigt, welches detaillierte Anweisungen und Informationen zur Nutzung der verschiedenen Funktionen sowie Funktionen der Benutzeroberfläche enthält.</p>
+    </div>
+    
+    <h2>2. Touch-Gestenerkennung in ARtemis auf dem iPad / iPhone</h2>
+    
+    <div class="touch-description">
+        <h3>2.1 Positionierung</h3>
+        <p>Um ein AR-Objekt auf einem iPad zu bewegen, wird in der Regel eine einfache Tap Geste verwendet. Ein Tap auf die Bodenfläche (mit dem Symbol [ + ] ) aktiviert es für Bewegungen. Vorwärts und rückwärts Bewegung: Leichtes Ziehen mit einem Finger in die entsprechende Richtung auf dem Bildschirm. Seitliche Bewegungen: Leichtes Ziehen mit einem Finger seitwärts, um das Objekt nach rechts oder links zu verschieben.</p>
+        <p><em>Beispielbild</em></p>
+    </div>
+    
+    <div class="touch-description">
+        <h3>2.2 Rotation</h3>
+        <p>Für die Rotation eines AR-Objekts um seine eigene Achse wird häufig die Zwei-Finger-Rotationsgeste genutzt: platzieren Sie zwei Finger auf dem Display und drehen Sie diese entweder im Uhrzeigersinn oder gegen den Uhrzeigersinn, um das Objekt entsprechend zu rotieren.</p>
+        <p><em>Beispielbild</em></p>
+    </div>
+    
+    <div class="touch-description">
+        <h3>2.3 Skalierung</h3>
+        <p>Die Größenänderung eines AR-Objekts erfolgt über die Pinch-Geste, die mit zwei Fingern ausgeführt wird: führen Sie die Finger zusammen, um das Objekt zu verkleinern, oder spreizen Sie die Finger, um es zu vergrößern.</p>
+        <p><em>Beispielbild</em></p>
+    </div>
+    
+    <div class="touch-description">
+        <h3>2.4 Reset (Zurücksetzen)</h3>
+        <p>Ein Doppel-Tap auf das AR-Objekt kann verwendet werden, um dessen Ausrichtung und Skalierung auf den Ursprungszustand zurückzusetzen: ein schnelles doppeltes Tippen auf das iPad Display setzt dieses in seinen Anfangszustand zurück.</p>
+        <p><em>Beispielbild</em></p>
+    </div>
+    
+    <h2>3. Gamecontroller Funktionen in ARtemis auf dem iPad / iPhone</h2>
+    
+    <div class="controller-description">
+        <h3>3.1 Left Thumbstick (linker Analogstick)</h3>
+        <p>Der linke Analogstick wird verwendet, um die Positionierung in der AR-Szene zu steuern. Durch Vorwärts- und Rückwärtsbewegungen des Sticks wird die Bewegung vorwärts bzw. rückwärts ermöglicht, während seitliche Bewegungen die Objekte nach links oder rechts verschieben.</p>
+        <p><em>Beispielbild</em></p>
+    </div>
+    
+    <div class="controller-description">
+        <h3>3.2 A- und B-Tasten [X- und Kreis-Taste]</h3>
+        <p>Die A- und B-Tasten [X- und Kreis-Taste] werden zur Skalierung der Objekte verwendet. Durch Drücken der A-Taste [X-Taste] wird die Skalierung des ausgewählten Objekts vergrößert, während die B-Taste [Kreis-Taste] die Skalierung verkleinert. Dies ermöglicht dem Benutzer eine einfache und intuitive Anpassung der Größe der Objekte.</p>
+        <p><em>Beispielbild</em></p>
+    </div>
+    
+    <div class="controller-description">
+        <h3>3.3 X-Taste [Quadrat-Taste]</h3>
+        <p>Die X-Taste [Quadrat-Taste] dient als Reset-Funktion, um die Position, Rotation und Skalierung der Objekte auf ihre Ausgangswerte zurückzusetzen. Dies ermöglicht dem Benutzer eine schnelle Neuausrichtung oder Anpassung der Objekte in der Szene.</p>
+        <p><em>Beispielbild</em></p>
+    </div>
+    
+    <div class="controller-description">
+        <h3>3.4 Left-Right Trigger (linke-rechte Abzugstasten)</h3>
+        <p>Die linken und rechten Abzugstasten dienen zur Rotation der Objekte um ihre eigene Achse. Durch Drücken des linken Triggers wird das ausgewählte Objekt gegen den Uhrzeigersinn gedreht, während der rechte Trigger eine Drehung im Uhrzeigersinn bewirkt.</p>
+        <p><em>Beispielbild</em></p>
+    </div>
+    
+    <div class="controller-description">
+        <h3>3.5 Left-Right Shoulder Button (linke-rechte Schultertasten)</h3>
+        <p>Die linken und rechten Schultertasten dienen zur Auswahl und zum Laden von Objekten in die AR-Szene. Durch Drücken der linken Schultertaste wird ein Objekt ausgewählt, während die rechte Schultertaste das Laden des ausgewählten Objekts in die Szene auslöst.</p>
+        <p><em>Beispielbild</em></p>
+    </div>
+    
+    <div class="controller-description">
+        <h3>3.6 Menü-Taste (Icon mit drei horizontalen Linien "Hamburger-Menü")</h3>
+        <p>Die Menü-Taste des Game-Controllers kann die Darstellung der Hilfe-Datei in der Applikation aufrufen. Dieser Vorgang ermöglicht den Benutzer:innen den direkten Zugriff auf unterstützende Dokumentationen und Anleitungen, ohne die Anwendung verlassen zu müssen.</p>
+    </div>
+    <div class="controller-description">
+    <h3>3.7Button-Vergabe: Xbox- und PS5-Controller</h3>
+    <div class="table-description">
+        <table>
+            <thead>
+                <tr>
+                    <th>Funktion</th>
+                    <th>Xbox-Controller</th>
+                    <th>PS5-Controller</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bewegungssteuerung</td>
+                    <td>Linker Stick</td>
+                    <td>Linker Stick</td>
+                </tr>
+                <tr>
+                    <td>Kamera-Steuerung</td>
+                    <td>Rechter Stick</td>
+                    <td>Rechter Stick</td>
+                </tr>
+                <tr>
+                    <td>A (Aktion/Bestätigen)</td>
+                    <td>A</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>B (Zurück/Abbrechen)</td>
+                    <td>B</td>
+                    <td>Kreis</td>
+                </tr>
+                <tr>
+                    <td>X (Interagieren)</td>
+                    <td>X</td>
+                    <td>Quadrat</td>
+                </tr>
+                <tr>
+                    <td>Y (Wechseln)</td>
+                    <td>Y</td>
+                    <td>Dreieck</td>
+                </tr>
+                <tr>
+                    <td>Steuerkreuz Oben</td>
+                    <td>Steuerkreuz Oben</td>
+                    <td>Steuerkreuz Oben</td>
+                </tr>
+                <tr>
+                    <td>Steuerkreuz Unten</td>
+                    <td>Steuerkreuz Unten</td>
+                    <td>Steuerkreuz Unten</td>
+                </tr>
+                <tr>
+                    <td>Steuerkreuz Links</td>
+                    <td>Steuerkreuz Links</td>
+                    <td>Steuerkreuz Links</td>
+                </tr>
+                <tr>
+                    <td>Steuerkreuz Rechts</td>
+                    <td>Steuerkreuz Rechts</td>
+                    <td>Steuerkreuz Rechts</td>
+                </tr>
+                <tr>
+                    <td>LB (Linker Bumper)</td>
+                    <td>LB</td>
+                    <td>L1</td>
+                </tr>
+                <tr>
+                    <td>RB (Rechter Bumper)</td>
+                    <td>RB</td>
+                    <td>R1</td>
+                </tr>
+                <tr>
+                    <td>LT (Linker Trigger)</td>
+                    <td>LT</td>
+                    <td>L2</td>
+                </tr>
+                <tr>
+                    <td>RT (Rechter Trigger)</td>
+                    <td>RT</td>
+                    <td>R2</td>
+                </tr>
+                <tr>
+                    <td>Start/Pause</td>
+                    <td>Menü</td>
+                    <td>Options</td>
+                </tr>
+                <tr>
+                    <td>Zurück/Teilen</td>
+                    <td>Ansicht/Teilen</td>
+                    <td>Create/Share</td>
+                </tr>
+                <tr>
+                    <td>Menü</td>
+                    <td>Menü</td>
+                    <td>Options</td>
+                </tr>
+                <tr>
+                    <td>Home</td>
+                    <td>Xbox-Taste</td>
+                    <td>PlayStation-Taste</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    <h2>4. Bereitstellung einer USDZ-Datei auf einem iPad / iPhone</h2>
+    
+    <div class="usdz-description">
+        <p>Durch die Nutzung der Files-App, des iTunes Shared Folders oder durch direktes Herunterladen von einem Server können Sie USDZ-Dateien effizient auf Ihr iPad übertragen und für die ARtemis-App zugänglich machen. Die folgenden 3 Methoden bieten flexible Lösungen für die Dateiverwaltung und ermöglichen eine nahtlose Integration von .usdz-Dateien. Im Folgenden wird auf drei unterschiedlichen Wegen beschrieben, wie man eine USDZ-Datei auf ein iPad überträgt und zugänglich macht: 1) durch die Files-App, 2) den iTunes Shared Folder oder 3) den direkten Download von einem Server. Bei der Nutzung des iTunes Shared Folders werden die Daten auch direkt in die Files-App übertragen.</p>
+        
+        <h3>Methode 1: Übertragung über die Files-App</h3>
+        <ol>
+            <li><strong>USDZ-Datei vorbereiten</strong>
+                <p>Stellen Sie sicher, dass die USDZ-Datei auf Ihrem Computer gespeichert und leicht zugänglich ist.</p>
+            </li>
+            <li><strong>Dateiübertragung mittels AirDrop</strong>
+                <ol>
+                    <li>Aktivieren Sie AirDrop auf Ihrem iPad und Ihrem Mac.</li>
+                    <li>Suchen Sie auf Ihrem Mac die USDZ-Datei und klicken Sie mit der rechten Maustaste darauf.</li>
+                    <li>Wählen Sie im Kontextmenü „Teilen“ und dann „AirDrop“.</li>
+                    <li>Wählen Sie Ihr iPad aus der Liste der verfügbaren Geräte.</li>
+                    <li>Bestätigen Sie den Empfang der Datei auf Ihrem iPad.</li>
+                </ol>
+            </li>
+            <li><strong>Datei im Files-App anzeigen</strong>
+                <ol>
+                    <li>Öffnen Sie die Files-App auf Ihrem iPad.</li>
+                    <li>Navigieren Sie zum Ordner „Auf meinem iPad“ oder zu einem anderen spezifischen Speicherort, an dem die Datei gespeichert wurde. Meistens finden Sie die USDZ-Datei im "Download" Ordner.</li>
+                    <li>Die USDZ-Datei sollte nun sichtbar und zugänglich sein.</li>
+                    <li>Tippen Sie auf „Auswählen“ oben rechts.</li>
+                    <li>Tippen Sie auf die Datei, die Sie verschieben möchten. Ein Häkchen erscheint neben der ausgewählten Datei.</li>
+                    <li>Tippen Sie auf das Bewegen-Symbol am unteren Bildschirmrand.</li>
+                    <li>Navigieren Sie zu dem ARtemis_TUDa-Ordner, in den Sie die Datei verschieben möchten.</li>
+                    <li>Tippen Sie auf „Bewegen“ oben rechts, um die Datei in den ARtemis_TUDa-Ordner zu verschieben.</li>
+                </ol>
+                <p><strong>Alternativ: Drag and Drop</strong></p>
+                <ol>
+                    <li>Öffnen Sie die Files-App und gehen Sie zum Ursprungsordner.</li>
+                    <li>Halten Sie die Datei gedrückt, bis sie sich abhebt.</li>
+                    <li>Ziehen Sie die Datei mit Ihrem Finger in den gewünschten Zielordner „ARtemis_TUDa“.</li>
+                    <li>Lassen Sie die Datei los.</li>
+                </ol>
+                <p><strong>Tipps:</strong></p>
+                <ul>
+                    <li>Sie können auch mehrere Dateien gleichzeitig verschieben, indem mehrere Dateien ausgewählt werden, bevor Sie auf „Verschieben“ tippen.</li>
+                    <li>Um schneller zu navigieren, können Sie die Suchleiste oben verwenden, um den „ARtemis_TUDa“ Zielordner zu finden.</li>
+                </ul>
+            </li>
+        </ol>
+        
+        <h3>Methode 2: Übertragung über den iTunes Shared Folder</h3>
+        <ol>
+            <li><strong>iTunes herunterladen und installieren</strong>
+                <p>Stellen Sie sicher, dass iTunes auf Ihrem Computer installiert ist. Laden Sie es von der offiziellen Apple-Website herunter und installieren Sie es, falls noch nicht geschehen.</p>
+            </li>
+            <li><strong>iPad verbinden</strong>
+                <p>Verbinden Sie Ihr iPad über ein USB-Kabel mit Ihrem Computer. Öffnen Sie iTunes und wählen Sie Ihr iPad aus, sobald es erkannt wird. Dieser Arbeitsschritt ist z.Z. für Mac gültig.</p>
+            </li>
+            <li><strong>Dateifreigabe einrichten</strong>
+                <p>Klicken Sie in iTunes auf das Symbol Ihres iPads und navigieren Sie zu „Dateifreigabe“.</p>
+                <p>Wählen Sie die „ARtemis_TUDa“-App aus der Liste, die diese Dateiübertragung unterstützt.</p>
+            </li>
+            <li><strong>USDZ-Datei hinzufügen</strong>
+                <p>Übertragen Sie per Drag and Drop die .usdz-Datei in den ausgewählten App-Ordner auf Ihr iPad.</p>
+                <p>Die Datei wird automatisch mit der Files-App synchronisiert.</p>
+            </li>
+        </ol>
+        
+        <h3>Methode 3: Direktes Laden von einem Server über die Files-App</h3>
+        <ol>
+            <li><strong>Serverzugang einrichten</strong>
+                <p>Stellen Sie sicher, dass die USDZ-Datei auf einem Server gespeichert ist und Sie über die Zugangsdaten verfügen.</p>
+            </li>
+            <li><strong>Files-App öffnen</strong>
+                <p>Öffnen Sie die Files-App auf Ihrem iPad.</p>
+            </li>
+            <li><strong>Serververbindung herstellen</strong>
+                <br><br>
+                <ol>
+                    <li>Tippen Sie auf das Menü-Symbol oben links.</li>
+                    <li>Wählen Sie „Mit Server verbinden“.</li>
+                    <li>Geben Sie die Serveradresse ein und tippen Sie auf „Verbinden“.</li>
+                    <li>Geben Sie Ihre Anmeldedaten ein, falls erforderlich.</li>
+                </ol>
+                <br>
+            </li>
+            <li><strong>USDZ-Datei herunterladen</strong>
+                <br><br>
+                <ol>
+                    <li>Navigieren Sie im Server-Verzeichnis zur USDZ-Datei.</li>
+                    <li>Tippen Sie auf die Datei, um sie herunterzuladen.</li>
+                    <li>Die Datei wird nun in der Files-App gespeichert und ist zugänglich.</li>
+                    <li>Tippen Sie auf „Auswählen“ oben rechts.</li>
+                    <li>Tippen Sie auf die Datei, die Sie verschieben möchten. Ein Häkchen erscheint neben der ausgewählten Datei.</li>
+                    <li>Tippen Sie auf das Bewegen-Symbol am unteren Bildschirmrand.</li>
+                    <li>Navigieren Sie zu dem ARtemis_TUDa-Ordner, in den Sie die Datei verschieben möchten.</li>
+                    <li>Tippen Sie auf „Bewegen“ oben rechts, um die Datei in den ARtemis_TUDa-Ordner zu verschieben.</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
